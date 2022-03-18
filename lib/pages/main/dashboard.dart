@@ -154,7 +154,7 @@ class why_songs extends StatefulWidget {
 
 // ignore: camel_case_types
 class _why_songsState extends State<why_songs> {
-  bool _expanded = true;
+  bool _expanded = false;
 
   @override
   Widget build(BuildContext context) {
@@ -183,7 +183,7 @@ class _why_songsState extends State<why_songs> {
                               fontSize: 18,
                               fontWeight: FontWeight.bold))),
                   isExpanded: _expanded,
-                  canTapOnHeader: true)
+                  canTapOnHeader:true)
             ],
             expansionCallback: (panelIndex, isExpanded) {
               _expanded = !_expanded;
