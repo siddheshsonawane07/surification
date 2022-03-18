@@ -164,6 +164,7 @@ class _why_songsState extends State<why_songs> {
             animationDuration: const Duration(milliseconds: 1000),
             children: [
               ExpansionPanel(
+                hasIcon: false,
                   backgroundColor: Colors.amber,
                   headerBuilder: (context, isExpanded) {
                     return const ListTile(
