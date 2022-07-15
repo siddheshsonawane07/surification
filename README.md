@@ -2,7 +2,8 @@
 
 Project build on a hackathon based idea.
 
-
+An edutainment app for deeper understanding and more retention of complex terms. An app developed under the guidance of Dr. Bhavna Ambudkar (E&TC HOD in DYPIT)
+Technologies used: Flutter, Firebase. 
 
 Video demonstration of the project
 
